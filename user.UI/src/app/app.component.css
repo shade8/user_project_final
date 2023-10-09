@@ -1,0 +1,43 @@
+.create-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-row:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .edit-button {
+    background-color: #28A745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .edit-button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,40 @@
+.user-details {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .user-details .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .user-details .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .user-details .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .user-details button {
+    margin-right: 10px;
+  }
+  
+  /* Optional: Hover styles for buttons */
+  .user-details button:hover {
+    opacity: 0.8;
+  }
+  

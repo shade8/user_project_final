@@ -1,0 +1,22 @@
+<div class="user-details" *ngIf="user">
+  <h2>User Details</h2>
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input [(ngModel)]="user.name" placeholder="Name" class="form-control" id="name" />
+  </div>
+  <div class="form-group">
+    <label for="firstName">First Name:</label>
+    <input [(ngModel)]="user.firstName" placeholder="First Name" class="form-control" id="firstName" />
+  </div>
+  <div class="form-group">
+    <label for="lastName">Last Name:</label>
+    <input [(ngModel)]="user.lastName" placeholder="Last Name" class="form-control" id="lastName" />
+  </div>
+  <div class="form-group">
+    <label for="place">Place:</label>
+    <input [(ngModel)]="user.place" placeholder="Place" class="form-control" id="place" />
+  </div>
+  <button (click)="updateHero(user)" *ngIf="user.id" class="btn btn-primary">Save</button>
+  <button (click)="deleteHero(user)" *ngIf="user.id" class="btn btn-danger">Delete</button>
+  <button (click)="createHero(user)" *ngIf="!user.id" class="btn btn-success">Create</button>
+</div>
